@@ -35,3 +35,27 @@ main()
 	 return(0);
 }
 ```
+Petla do-while.
+
+```c
+#include <stdio.h>
+main()
+
+{
+	int x;
+	x=0;
+	
+	do{
+	   printf("%d\n",x);
+		x=x+1;
+		}while (x<=23);
+		
+	
+
+
+		 getchar();
+	 return(0);
+}
+```
+
+#### Wypisz liczby od -3.5 do 7.5 z krokiem co 0.5 za pomoc petli for w while.
