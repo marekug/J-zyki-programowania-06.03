@@ -248,3 +248,34 @@ main()
 	 return(0);
 }
 ```
+7
+
+```c
+#include <stdio.h>
+main()
+
+{
+	char znak;
+	for (znak='a'; znak<='k'; znak++){
+		printf("dla %c w systemie dziesiętnym %d, w systemie szesnastkowym %x\n", znak, znak, znak);
+	}
+return(0);
+
+}
+```
+
+8
+```c
+#include <stdio.h>
+main()
+
+{
+char c;	
+	while((c=getchar())!='x')
+	putchar(c);
+	
+	return(0);
+
+}
+
+```
