@@ -201,7 +201,7 @@ main()
 }
 ```
 
-5
+####Wypisz sinusy i cosinusy katów 0 - 180 stopni z krokiem co 30 stopni za pomoca petli for.
 
 ```c
 #include <stdio.h>
@@ -222,7 +222,7 @@ main()
 }
 ```
 
-6
+#### Napisz program wczytujacy n liczb zmiennoprzecinkowych i wyswietl ich sume oraz srednia arytmetyczna. 
 
 ```c
 #include <stdio.h>
