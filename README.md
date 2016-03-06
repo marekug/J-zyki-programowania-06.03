@@ -2,6 +2,6 @@
 
 ####Podaj liczby cakowite od 0 do 23 za pomoca ptli for, while i do-while.
 
-'''
+'''c
 fdfasdfds
 '''
