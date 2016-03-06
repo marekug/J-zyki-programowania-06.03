@@ -98,8 +98,7 @@ main()
 	 return(0);
 }
 ```
-####Wypisz kwadraty i szeciany liczb naturalnych od 1 do liczby podanej przez użytkownika za pomoc
- ptli for, while i do-while.
+####Wypisz kwadraty i szeciany liczb naturalnych od 1 do liczby podanej przez użytkownika za pomoc petli for, while i do-while.
 
 Petla for. 
 ```c
@@ -157,6 +156,48 @@ main()
 	x=x+1; 
 	}while (x<=y);
 	
+	 getchar();
+	 return(0);
+}
+```
+####Oblicz za pomoca petli for i while sume kwadratów liczb od 3 do 15.
+
+Petla for.
+```c
+#include <stdio.h>
+main()
+
+{
+	int x, y;
+    y=0;
+	for(x=3; x<=15; x++){
+	
+	printf("%d\t", x*x );
+	y=y+x*x;
+	
+	printf("%d\n", y); 
+}
+	 getchar();
+	 return(0);
+}
+```
+Petla while.
+```c
+#include <stdio.h>
+main()
+
+{
+	int x, y;
+    y=0;
+    x=3;
+
+	while(x<=15){
+		
+	printf("%d\t", x*x );
+	y=y+x*x;
+	x=x+1;
+	printf("%d\n", y); 
+}
 	 getchar();
 	 return(0);
 }
