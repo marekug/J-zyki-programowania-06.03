@@ -32,7 +32,7 @@ main()
 	printf("%d\n",x);
 	x=x+1;
 }
-		 getchar();
+	  getchar();
 	 return(0);
 }
 ```
@@ -48,14 +48,11 @@ main()
 	
 	do{
 	   printf("%d\n",x);
-		x=x+1;
+	        x=x+1;
 		}while (x<=23);
 		
-	
-
-
-		 getchar();
-	 return(0);
+	getchar();
+	return(0);
 }
 ```
 
