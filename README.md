@@ -2,8 +2,18 @@
 
 ####Podaj liczby cakowite od 0 do 23 za pomoca ptli for, while i do-while.
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+```c
+#include <stdio.h>
+main()
+
+{
+	int x;
+	
+	for(x=0; x<=23; x++)
+	
+	printf("%d\n",x);
+	 
+	 getchar();
+	 return(0);
+}
 ```
