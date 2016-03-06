@@ -200,3 +200,51 @@ main()
 	 return(0);
 }
 ```
+
+5
+
+```c
+#include <stdio.h>
+#include <math.h>
+main()
+
+{
+	double x;
+    
+    
+	for(x=0; x<=180; x=x+30 ){
+
+	printf("%f\t", sin(x*M_PI/180));	
+    printf("%f\n", cos(x*M_PI/180));
+}
+	 getchar();
+	 return(0);
+}
+```
+
+6
+
+```c
+#include <stdio.h>
+main()
+{
+	double x, y, t; // y to suma, t średnia 
+    int n, p;
+    y=0;
+    printf("podaj ilosc liczb:");
+	scanf("%d", &n);
+    for(p=1; p<=n; p++){
+    
+	printf("podaj liczbe:\t");
+    scanf("%lf", &x); 
+    y=y+x;
+}
+	printf("suma %lf\t\n", y);
+  
+
+     t=y/n;
+     printf( "srednia %lf\n", t);
+	 getchar();
+	 return(0);
+}
+```
