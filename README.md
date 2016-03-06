@@ -18,6 +18,7 @@ main()
 	 return(0);
 }
 ```
+Petla while.
 ```c
 #include <stdio.h>
 main()
