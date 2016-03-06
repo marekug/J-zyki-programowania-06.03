@@ -279,3 +279,18 @@ char c;
 }
 
 ```
+9
+
+```c
+#include <stdio.h>
+main()
+
+{
+char c; 
+    while((c=getchar())!='x')
+    putchar(toupper(c));
+
+    return(0);
+
+}
+```
