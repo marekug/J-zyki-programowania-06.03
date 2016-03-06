@@ -2,7 +2,7 @@
 
 ####Podaj liczby cakowite od 0 do 23 za pomoca ptli for, while i do-while.
 
-Petla for.
+Petla for.   
 ```c
 #include <stdio.h>
 main()
@@ -15,6 +15,22 @@ main()
 	printf("%d\n",x);
 	 
 	 getchar();
+	 return(0);
+}
+```
+```c
+#include <stdio.h>
+main()
+
+{
+	int x;
+	x=0;
+	while(x<=23){
+	
+	printf("%d\n",x);
+	x=x+1;
+}
+		 getchar();
 	 return(0);
 }
 ```
